@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Assignment B</title>
+    <meta name="description" content="Assignment B description.">
+    <link rel="stylesheet" href="AssignmentD.css">
+</head>
+
+<body>
+    <h1>Sample login page</h1>
+    <form>
+        <label class="required" for="login">Login: </label><br>
+        <input type="text" id="login" name="login"><br>
+
+        <label class="required" for="password">Password: </label><br>
+        <input type="password" id="password" name="password"><br>
+        
+        <input type="checkbox" id="RememberLogin" name="RememberLogin">
+        <label for="RememberLogin">Remember login? </label><br>
+        
+        <input type="checkbox" id="RememberPass" name="RememberPass">
+        <label for="RememberPass">Remember password? </label><br>
+
+        <br><label class="required" for="selectTypeOfUser">Select type of login: </label><br>
+        <select name="selectTypeOfUser" id="selectTypeOfUser">
+        <option value="Regular user">Guest</option>
+        <option value="Regular user">Regular user</option>
+        <option value="Regular user">Administrator</option>
+        </select><br>
+        
+        <label for="optionalPIN">Optional PIN password:</label><br>
+        <textarea id="optionalPIN" name="optionalPIN"></textarea><br>
+        
+        <button type="submit" value="Submit">Submit</button>
+        <button type="reset" value="Reset">Reset</button>
+    </form>
+
+</body>
+
+</html>

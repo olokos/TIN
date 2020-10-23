@@ -1,0 +1,8 @@
+form{
+    font-style: oblique;
+    font-size: 1.2em;
+}
+
+label.required{
+    background-color:firebrick;
+}
