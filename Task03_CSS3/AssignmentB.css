@@ -79,14 +79,19 @@ blockquote {
 }
 
 img {
-    max-width: 70%;
+    max-width: 80%;
     height: auto;
     display: inline;
+}
+
+figcaption {
+    max-width: 80%;
 }
 
 .imageWithinText {
     width: 40%;
     float: left;
+    margin: 5%;
 }
 
 footer {
