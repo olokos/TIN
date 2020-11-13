@@ -10,7 +10,7 @@
         }
 
     }
-    console.log("ITERATION RESULTS START HERE!")
+    console.log("ITERATION RESULTS START HERE!");
 
     console.log(factorialOfNumberIteration(-1));
     console.log(factorialOfNumberIteration(0));
@@ -19,7 +19,7 @@
     console.log(factorialOfNumberIteration(3));
     console.log(factorialOfNumberIteration(4));
     console.log(factorialOfNumberIteration(5));
-    console.log("ITERATION RESULTS END HERE!")
+    console.log("ITERATION RESULTS END HERE!");
 
     function factorialOfNumberRecursive(argument) {
         if (argument === 0) {
@@ -29,7 +29,7 @@
         }
     }
 
-    console.log("RECURSIVE RESULTS START HERE!")
+    console.log("RECURSIVE RESULTS START HERE!");
     console.log(factorialOfNumberRecursive(-1));
     console.log(factorialOfNumberRecursive(0));
     console.log(factorialOfNumberRecursive(1));
@@ -37,4 +37,4 @@
     console.log(factorialOfNumberRecursive(3));
     console.log(factorialOfNumberRecursive(4));
     console.log(factorialOfNumberRecursive(5));
-    console.log("RECURSIVE RESULTS END HERE!")
+    console.log("RECURSIVE RESULTS END HERE!");
