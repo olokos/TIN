@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Task4i JSIntro</title>
-</head>
-<script type="text/javascript">
     function convertMoneyIntoCoins(amountOfCoins, coinsArray) {
 
         coinsArray.sort(function(a, b) {
@@ -22,7 +14,3 @@
     }
 
     convertMoneyIntoCoins(46, [25, 10, 5, 2, 1]);
-
-</script>
-
-</html>

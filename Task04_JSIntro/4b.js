@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Task4b JSIntro</title>
-</head>
-<script type="text/javascript">
     function nthNumberOfFibonacci(argument) {
         if (argument === 0) {
             return 0;
@@ -24,7 +15,3 @@
     console.log(nthNumberOfFibonacci(4));
     console.log(nthNumberOfFibonacci(5));
     console.log(nthNumberOfFibonacci(6));
-
-</script>
-
-</html>

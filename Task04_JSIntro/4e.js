@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Task4e JSIntro</title>
-</head>
-<script type="text/javascript">
     function findLongestWordInString(argument) {
         let longestWord;
         let longestWordLength = 0;
@@ -24,7 +15,3 @@
     console.log(findLongestWordInString("Sentence with immensely long word."));
     console.log(findLongestWordInString("Sentence with long word."));
     console.log(findLongestWordInString("A word."));
-
-</script>
-
-</html>

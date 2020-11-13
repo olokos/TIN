@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Task4c JSIntro</title>
-</head>
-<script type="text/javascript">
     function checkStringPalindrome(argument) {
         argument = argument.toUpperCase();
         for (let i = 0; i < argument.length / 2; i++) {
@@ -34,7 +25,3 @@
     } else {
         console.log("This word is NOT a palindrome");
     };
-
-</script>
-
-</html>

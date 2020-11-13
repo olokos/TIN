@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Task4f JSIntro</title>
-</head>
-<script type="text/javascript">
     function isNumberPrime(argument) {
         if (argument === 1) {
             return false;
@@ -48,7 +39,3 @@
     } else {
         console.log("This number is NOT a prime number.")
     }
-
-</script>
-
-</html>

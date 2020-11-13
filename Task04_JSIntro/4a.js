@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Task4a JSIntro</title>
-</head>
-<script type="text/javascript">
-    //use recursion and iteration
-    //recurse using function expression
-    //iterate using function declaration
-
     function factorialOfNumberIteration(argument) {
         if (argument === 0) {
             return 1;
@@ -51,7 +38,3 @@
     console.log(factorialOfNumberRecursive(4));
     console.log(factorialOfNumberRecursive(5));
     console.log("RECURSIVE RESULTS END HERE!")
-
-</script>
-
-</html>

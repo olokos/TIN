@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Task4h JSIntro</title>
-</head>
-<script type="text/javascript">
-    function findMinAndMaxNumberInArray(argument) {
+function findMinAndMaxNumberInArray(argument) {
         let min = argument[0];
         let max = argument[0];
         let secMin = argument[0];
@@ -39,7 +30,3 @@
         78,
         93
     ])
-
-</script>
-
-</html>
