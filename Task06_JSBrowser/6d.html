@@ -16,19 +16,21 @@
         <input type="text" id="emailField" name="emailField"><br>
         <input type="button" value="Validate!" id="btnSubmit" onclick="validateBothFields();addNewTableRow()">
     </form>
-    <table>
+    <table id="myTable">
         <tr>
-            <th>Fav. Number:</th>
+            <th>Fav Number:</th>
             <th>Email:</th>
         </tr>
-        <tr>
-            <td>1337</td>
-            <td>olokos@wp.pl</td>
-        </tr>
-        <tr>
-            <td>42069</td>
-            <td>example@email.com</td>
-        </tr>
+        <tbody id=rows>
+            <tr>
+                <td>1337</td>
+                <td>olokos@wp.pl</td>
+            </tr>
+            <tr>
+                <td>42069</td>
+                <td>example@email.com</td>
+            </tr>
+        </tbody>
     </table>
 </body>
 
