@@ -25,4 +25,4 @@ http.createServer(function(req, res){
   }
 }).listen(8080);
 
-// to invoke: http://localhost:8080/?wantedFolder=someFolder
+// to invoke: http://localhost:8080/monitor?wantedFolder=someFolder
