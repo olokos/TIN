@@ -5,7 +5,12 @@ var fs = require('fs');
 http.createServer(function(req, res){
     res.writeHead(200, {'Content-Type': 'text/html'});
 
+    let desiredPath = url.parse(req.url,true).pathname;
+    if (desiredPath == '/monitor'){
+
     let q = url.parse(req.url, true).query;
+
+    console.log(q);
     let wantedFolder = './' + q.wantedFolder;
 
     
@@ -17,5 +22,7 @@ http.createServer(function(req, res){
     });
   }); 
     res.end();
+  }
 }).listen(8080);
-// to invoke: http://localhost:8080/?watchedFolder=someFolder
+
+// to invoke: http://localhost:8080/?wantedFolder=someFolder
