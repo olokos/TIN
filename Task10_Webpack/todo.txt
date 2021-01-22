@@ -1,0 +1,10 @@
+Rozbić jsy na:
+
+Loader ->
+
+Celsius to Kelvin/fahrenheit
+Kelvin to Celsius/Fahrenheit
+Fahrenheit to Celsius/fahrenheit
+
+Kilometres to miles
+Miles to kilometers
