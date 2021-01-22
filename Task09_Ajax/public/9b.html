@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Task8B simple form</title>
+    <script src=ajax.js></script>
+</head>
+
+<body style="background-color: dimgray">
+    <form method="post" name="calculatorForm" action="http://localhost:8080/formdata">
+        <label for="firstNumber">Celsius input:</label><br>
+        <input type="text" id="firstNumber" name="firstNumber"><br>
+        <label for="secondNumber">Fahrenheit output:</label><br>
+        <input type="text" id="secondNumber" name="secondNumber" value="0"><br>
+		
+		<input type="radio" id="*" name="selectedOperation" value="*" checked>
+		<label for="*">Multiply *</label>
+		
+		<input type="radio" id="/" name="selectedOperation" value="/" checked>
+		<label for="/">Divide /</label>
+		
+		<input type="radio" id="-" name="selectedOperation" value="-" checked>
+		<label for="-">Substract -</label>
+		
+		<input type="radio" id="+" name="selectedOperation" value="+" checked>
+		<label for="+">Add +</label>
+		
+		<br>
+		
+        <input type="button" id="sendAjax" value="Send data">
+
+        <div id="result"> </div>
+    </form>
+</body>
+
+</html>
