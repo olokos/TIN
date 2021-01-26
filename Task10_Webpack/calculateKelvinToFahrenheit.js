@@ -6,3 +6,5 @@ function calculateKelvinToFahrenheit() {
     document.getElementById("calculatedValueKelvToFahr").value = calculatedValueKelvToFahr;
     return calculatedValueKelvToFahr;
 }
+
+window.calculateKelvinToFahrenheit=calculateKelvinToFahrenheit;

@@ -1,3 +1,5 @@
+const calculateCelsiusToKelvin = require("./calculateCelsiusToKelvin");
+
 function calculateFahrenheitToKelvin() {
     let calculatedValueFahrToKelv = document.getElementById("enteredTempFahrToCel").value;
     console.log("enteredTempFahrToCel " + enteredTempFahrToCel.value);
@@ -6,3 +8,5 @@ function calculateFahrenheitToKelvin() {
     document.getElementById("calculatedValueFahrToKelv").value = calculatedValueFahrToKelv;
     return calculatedValueFahrToKelv;
 }
+
+window.calculateFahrenheitToKelvin=calculateFahrenheitToKelvin;

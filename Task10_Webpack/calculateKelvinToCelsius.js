@@ -6,3 +6,5 @@ function calculateKelvinToCelsius() {
     document.getElementById("calculatedValueKelvToCel").value = calculatedValueKelvToCel;
     return calculatedValueKelvToCel;
 }
+
+window.calculateKelvinToCelsius=calculateKelvinToCelsius;

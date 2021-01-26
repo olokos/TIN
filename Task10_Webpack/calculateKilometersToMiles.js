@@ -6,3 +6,5 @@ function calculateKilometersToMiles() {
     document.getElementById("calculatedDistanceKilometersToMiles").value = calculatedDistanceKilometersToMiles;
     return calculatedDistanceKilometersToMiles;
 }
+
+window.calculateKilometersToMiles=calculateKilometersToMiles;

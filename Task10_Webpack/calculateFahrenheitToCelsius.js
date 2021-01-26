@@ -6,3 +6,5 @@ function calculateFahrenheitToCelsius() {
     document.getElementById("calculatedValueFahrToCel").value = calculatedValueFahrToCel;
     return calculatedValueFahrToCel;
 }
+
+window.calculateFahrenheitToCelsius=calculateFahrenheitToCelsius;
