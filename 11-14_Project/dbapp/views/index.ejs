@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <form action="result_page" method="POST">
+      <p>Please select type of operation you want to do:</p>
+      <input type="radio" id="select" name="operation" value="select">
+      <label for="select">Select</label>
+      <input type="radio" id="insert" name="operation" value="insert">
+      <label for="insert">Insert</label><br>
+      <input type="radio" id="update" name="operation" value="update">
+      <label for="update">Update</label>
+      <input type="radio" id="delete" name="operation" value="delete">
+      <label for="delete">Delete</label><br>
+      
+      <br>  
+    
+      <p>Please select table you want to operate on:</p>
+      <input type="radio" id="student" name="tableToOperateOn" value="student">
+      <label for="student">Student</label><br>
+      <input type="radio" id="university" name="tableToOperateOn" value="university">
+      <label for="university">University</label><br>  
+      <input type="radio" id="studentStudyingAtUni" name="tableToOperateOn" value="studentStudyingAtUni">
+      <label for="studentStudyingAtUni">studentStudyingAtUni</label><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
